@@ -1,0 +1,310 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "preferences": {
+        "monday": {
+          "morning": 1,
+          "afternoon": 2
+        },
+        "tuesday": {
+          "morning": 1
+        },
+        "wednesday": {
+          "afternoon": 1,
+          "evening": 2
+        },
+        "thursday": {
+          "morning": 2,
+          "afternoon": 1
+        },
+        "friday": {
+          "afternoon": 1
+        },
+        "saturday": {
+          "evening": 1
+        },
+        "sunday": {
+          "morning": 1
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "preferences": {
+        "monday": {
+          "afternoon": 1,
+          "evening": 2
+        },
+        "tuesday": {
+          "evening": 1
+        },
+        "wednesday": {
+          "morning": 2,
+          "afternoon": 1
+        },
+        "thursday": {
+          "evening": 1
+        },
+        "friday": {
+          "morning": 1,
+          "afternoon": 2
+        },
+        "saturday": {
+          "morning": 1
+        },
+        "sunday": {
+          "afternoon": 1
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Carol Davis",
+      "preferences": {
+        "monday": {
+          "evening": 1
+        },
+        "tuesday": {
+          "morning": 1,
+          "afternoon": 2
+        },
+        "wednesday": {
+          "evening": 1
+        },
+        "thursday": {
+          "morning": 1
+        },
+        "friday": {
+          "evening": 1
+        },
+        "saturday": {
+          "afternoon": 1,
+          "evening": 2
+        },
+        "sunday": {
+          "evening": 1
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "David Wilson",
+      "preferences": {
+        "monday": {
+          "morning": 2,
+          "afternoon": 1
+        },
+        "tuesday": {
+          "afternoon": 1,
+          "evening": 2
+        },
+        "wednesday": {
+          "morning": 1
+        },
+        "thursday": {
+          "afternoon": 2,
+          "evening": 1
+        },
+        "friday": {
+          "morning": 1
+        },
+        "saturday": {
+          "morning": 2,
+          "afternoon": 1
+        },
+        "sunday": {
+          "afternoon": 2,
+          "evening": 1
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Emma Brown",
+      "preferences": {
+        "monday": {
+          "morning": 1
+        },
+        "tuesday": {
+          "morning": 2,
+          "afternoon": 1
+        },
+        "wednesday": {
+          "morning": 1,
+          "afternoon": 2
+        },
+        "thursday": {
+          "morning": 1
+        },
+        "friday": {
+          "afternoon": 1,
+          "evening": 2
+        },
+        "saturday": {
+          "evening": 1
+        },
+        "sunday": {
+          "morning": 2,
+          "afternoon": 1
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Frank Miller",
+      "preferences": {
+        "monday": {
+          "evening": 1
+        },
+        "tuesday": {
+          "evening": 1
+        },
+        "wednesday": {
+          "afternoon": 2,
+          "evening": 1
+        },
+        "thursday": {
+          "evening": 1
+        },
+        "friday": {
+          "evening": 1
+        },
+        "saturday": {
+          "morning": 1,
+          "evening": 2
+        },
+        "sunday": {
+          "evening": 1
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Grace Lee",
+      "preferences": {
+        "monday": {
+          "afternoon": 1,
+          "evening": 2
+        },
+        "tuesday": {
+          "morning": 1,
+          "afternoon": 2
+        },
+        "wednesday": {
+          "afternoon": 1
+        },
+        "thursday": {
+          "morning": 2,
+          "afternoon": 1
+        },
+        "friday": {
+          "morning": 1
+        },
+        "saturday": {
+          "afternoon": 1
+        },
+        "sunday": {
+          "morning": 1,
+          "afternoon": 2
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Henry Taylor",
+      "preferences": {
+        "monday": {
+          "morning": 1,
+          "evening": 2
+        },
+        "tuesday": {
+          "morning": 1
+        },
+        "wednesday": {
+          "morning": 2,
+          "evening": 1
+        },
+        "thursday": {
+          "morning": 1
+        },
+        "friday": {
+          "morning": 2,
+          "evening": 1
+        },
+        "saturday": {
+          "morning": 1
+        },
+        "sunday": {
+          "evening": 1
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Iris Chen",
+      "preferences": {
+        "monday": {
+          "afternoon": 2,
+          "evening": 1
+        },
+        "tuesday": {
+          "afternoon": 1
+        },
+        "wednesday": {
+          "morning": 1,
+          "afternoon": 2
+        },
+        "thursday": {
+          "afternoon": 1,
+          "evening": 2
+        },
+        "friday": {
+          "afternoon": 1
+        },
+        "saturday": {
+          "morning": 2,
+          "afternoon": 1
+        },
+        "sunday": {
+          "afternoon": 1,
+          "evening": 2
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Jack Rodriguez",
+      "preferences": {
+        "monday": {
+          "morning": 1,
+          "afternoon": 3
+        },
+        "tuesday": {
+          "morning": 2,
+          "evening": 1
+        },
+        "wednesday": {
+          "morning": 1
+        },
+        "thursday": {
+          "morning": 1,
+          "evening": 2
+        },
+        "friday": {
+          "morning": 2,
+          "afternoon": 1
+        },
+        "saturday": {
+          "morning": 1
+        },
+        "sunday": {
+          "morning": 1,
+          "evening": 3
+        }
+      }
+    }
+  ]
+}

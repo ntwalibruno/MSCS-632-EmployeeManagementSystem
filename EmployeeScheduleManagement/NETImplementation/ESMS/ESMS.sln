@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeScheduleManagementSystem", "EmployeeScheduleManagementSystem\EmployeeScheduleManagementSystem.csproj", "{06704643-E608-4D0F-90F8-4270748D18EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{0820183C-A028-4AE7-ABFF-F11E534B007F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06704643-E608-4D0F-90F8-4270748D18EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06704643-E608-4D0F-90F8-4270748D18EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06704643-E608-4D0F-90F8-4270748D18EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06704643-E608-4D0F-90F8-4270748D18EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0820183C-A028-4AE7-ABFF-F11E534B007F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0820183C-A028-4AE7-ABFF-F11E534B007F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0820183C-A028-4AE7-ABFF-F11E534B007F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0820183C-A028-4AE7-ABFF-F11E534B007F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7101B0BB-AE47-49D1-92AE-9966FC7E13C0}
+	EndGlobalSection
+EndGlobal

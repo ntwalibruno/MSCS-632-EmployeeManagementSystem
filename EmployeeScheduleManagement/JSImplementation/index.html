@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Schedule Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-calendar-alt"></i> Employee Schedule Management System</h1>
+            </div>
+        </header>
+
+        <nav class="navigation">
+            <button class="nav-btn active" data-tab="employees">
+                <i class="fas fa-users"></i> Employees
+            </button>
+            <button class="nav-btn" data-tab="schedule">
+                <i class="fas fa-calendar-week"></i> Schedule
+            </button>
+        </nav>
+
+        <main class="main-content">
+            <!-- Employee Management Tab -->
+            <div id="employees-tab" class="tab-content active">
+                <div class="section-header">
+                    <h2><i class="fas fa-user-plus"></i> Employee Management</h2>
+                    <button id="load-test-data" class="btn btn-secondary">
+                        <i class="fas fa-database"></i> Load Test Data
+                    </button>
+                </div>
+
+                <div class="employee-form">
+                    <h3>Add New Employee</h3>
+                    <form id="employee-form">
+                        <div class="form-group">
+                            <label for="employee-name">Employee Name:</label>
+                            <input type="text" id="employee-name" required>
+                        </div>
+                        
+                        <div class="preferences-section">
+                            <h4>Shift Preferences (Rank 1-3, 1 = Most Preferred)</h4>
+                            <div class="days-grid">
+                                <div class="day-column">
+                                    <h5>Monday</h5>
+                                    <div class="shift-preferences">
+                                        <label>
+                                            <select name="monday-morning">
+                                                <option value="">Morning</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="monday-afternoon">
+                                                <option value="">Afternoon</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="monday-evening">
+                                                <option value="">Evening</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="day-column">
+                                    <h5>Tuesday</h5>
+                                    <div class="shift-preferences">
+                                        <label>
+                                            <select name="tuesday-morning">
+                                                <option value="">Morning</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="tuesday-afternoon">
+                                                <option value="">Afternoon</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="tuesday-evening">
+                                                <option value="">Evening</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="day-column">
+                                    <h5>Wednesday</h5>
+                                    <div class="shift-preferences">
+                                        <label>
+                                            <select name="wednesday-morning">
+                                                <option value="">Morning</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="wednesday-afternoon">
+                                                <option value="">Afternoon</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="wednesday-evening">
+                                                <option value="">Evening</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="day-column">
+                                    <h5>Thursday</h5>
+                                    <div class="shift-preferences">
+                                        <label>
+                                            <select name="thursday-morning">
+                                                <option value="">Morning</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="thursday-afternoon">
+                                                <option value="">Afternoon</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="thursday-evening">
+                                                <option value="">Evening</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="day-column">
+                                    <h5>Friday</h5>
+                                    <div class="shift-preferences">
+                                        <label>
+                                            <select name="friday-morning">
+                                                <option value="">Morning</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="friday-afternoon">
+                                                <option value="">Afternoon</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="friday-evening">
+                                                <option value="">Evening</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="day-column">
+                                    <h5>Saturday</h5>
+                                    <div class="shift-preferences">
+                                        <label>
+                                            <select name="saturday-morning">
+                                                <option value="">Morning</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="saturday-afternoon">
+                                                <option value="">Afternoon</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="saturday-evening">
+                                                <option value="">Evening</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="day-column">
+                                    <h5>Sunday</h5>
+                                    <div class="shift-preferences">
+                                        <label>
+                                            <select name="sunday-morning">
+                                                <option value="">Morning</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="sunday-afternoon">
+                                                <option value="">Afternoon</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                        <label>
+                                            <select name="sunday-evening">
+                                                <option value="">Evening</option>
+                                                <option value="1">1st Choice</option>
+                                                <option value="2">2nd Choice</option>
+                                                <option value="3">3rd Choice</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-plus"></i> Add Employee
+                        </button>
+                    </form>
+                </div>
+
+                <div class="employees-list">
+                    <h3>Current Employees</h3>
+                    <div id="employees-container"></div>
+                </div>
+            </div>
+
+            <!-- Schedule Tab -->
+            <div id="schedule-tab" class="tab-content">
+                <div class="section-header">
+                    <h2><i class="fas fa-calendar-week"></i> Weekly Schedule</h2>
+                    <button id="generate-schedule" class="btn btn-primary">
+                        <i class="fas fa-cogs"></i> Generate Schedule
+                    </button>
+                </div>
+
+                <div id="schedule-container">
+                    <div class="schedule-placeholder">
+                        <i class="fas fa-calendar-plus"></i>
+                        <p>Click "Generate Schedule" to create the weekly schedule</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Analytics Tab -->
+            <div id="analytics-tab" class="tab-content">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-bar"></i> Schedule Analytics</h2>
+                </div>
+
+                <div id="analytics-container">
+                    <div class="analytics-placeholder">
+                        <i class="fas fa-chart-line"></i>
+                        <p>Generate a schedule to view analytics</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for employee details -->
+    <div id="employee-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
